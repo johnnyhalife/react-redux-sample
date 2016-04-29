@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
 import WidgetsContainer from '../components/widgets-container'
-import * as WidgetActions from '../actions/index'
+import * as WidgetActions from '../../core/actions/index'
 
 class App extends Component {
   render() {
